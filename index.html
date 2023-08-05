@@ -3,9 +3,216 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="../../code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="boxoffice.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <header>megabox</header>
+    <div id="modal1">
+        <div class="modal1_container">
+            <div class="modal1_header">
+                <span>
+                    알림
+                </span>
+                <span class="material-symbols-outlined">
+                    close
+                    </span>
+            </div>
+            <div class="modal1_content">영화명을 입력해 주세요.
+                <button>확인</button></div>
+        </div>
+
+    </div>
+    <header>
+        <div class="navItemcontainer">
+            <div class="Item icon1">
+                <span class="material-symbols-outlined">
+                    menu
+                    <span class="material-symbols-outlined">
+                        search
+                        </span>
+                    </span>
+            </div>
+
+            <div class="Item">영화</div>
+            <div class="Item">예매</div>
+            <div class="Item">극장</div>
+            <div class="Item">MEGABOX</div>
+            <div class="Item">이벤트</div>
+            <div class="Item">스토어</div>
+            <div class="Item">혜택</div>
+            <div class="Item"><span class="material-symbols-outlined">
+                toolbar
+                </span>
+                <span class="material-symbols-outlined">
+                    person
+                    </span>
+            </div>
+        </div>
+        <div class="navSubItemContainer setion1">
+            <div class="subItem">전체영화</div>
+            <div class="subItem">큐레이션</div>
+            <div class="subItem">무비 포스트</div>
+        
+        </div>
+        <div class="navSubItemContainer setion2">
+            <div class="subItem">전체영화</div>
+            <div class="subItem">큐레이션</div>
+
+        </div>
+        <div class="navSubItemContainer setion3">
+            <div class="subItem">전체영화</div>
+            <div class="subItem">큐레이션</div>
+
+        </div>
+        <div class="navSubItemContainer setion4">
+            <div class="subItem">전체영화</div>
+            <div class="subItem">큐레이션</div>
+
+        </div>
+        <div class="navSubItemContainer setion5">
+            <div class="subItem">전체영화</div>
+            <div class="subItem">큐레이션</div>
+
+        </div>
+        <div class="navSubItemContainer setion6">
+            <div class="subItem">전체영화</div>
+            <div class="subItem">큐레이션</div>
+
+        </div>
+    </header>
+
+    <div class="boxoffice">
+        <div class="sectionBoxoffice">
+            박스오피스
+        </div>
+        <div class="boxOfficePosterContainer">
+            <div class="boxOfficePosterBox">
+                <div class="boxOfficePoster">
+                    <img src="강아지.jpg" alt="">
+                </div>
+                <div class="boxofficePosterDesc">
+                    
+                    까마귀 날자 배 떨어진다
+                </div>
+                <div class="boxOfficePosterToolbar">
+                    <button><span class="material-symbols-outlined">
+                        favorite
+                        </span>like</button>
+                    <button>예매</button>
+                </div>
+            </div>
+            <div class="boxOfficePosterBox">
+                <div class="boxOfficePoster">
+                    <img src="강아지.jpg" alt="">
+                </div>
+                <div class="boxofficePosterDesc">
+                    
+                    까마귀 날자 배 떨어진다
+                </div>
+                <div class="boxOfficePosterToolbar">
+                    <button><span class="material-symbols-outlined">
+                        favorite
+                        </span>like</button>
+                    <button>예매</button>
+                </div>
+            </div>
+            <div class="boxOfficePosterBox">
+                <div class="boxOfficePoster">
+                    <img src="강아지.jpg" alt="">
+                </div>
+                <div class="boxofficePosterDesc">
+                    
+                    까마귀 날자 배 떨어진다
+                </div>
+                <div class="boxOfficePosterToolbar">
+                    <button><span class="material-symbols-outlined">
+                        favorite
+                        </span>like</button>
+                    <button>예매</button>
+                </div>
+            </div>
+            <div class="boxOfficePosterBox">
+                <div class="boxOfficePoster">
+                    <img src="강아지.jpg" alt="">
+                </div>
+                <div class="boxofficePosterDesc">
+                    
+                    까마귀 날자 배 떨어진다
+                </div>
+                <div class="boxOfficePosterToolbar">
+                    <button><span class="material-symbols-outlined">
+                        favorite
+                        </span>like</button>
+                    <button>예매</button>
+                </div>
+            </div>
+        </div>
+        <div class="boxOfficeToolbar">
+            <div class=toolbarItem>
+                <span>
+                    <input type="text" name="" id="searchMovie"  >
+                    <button><span class="material-symbols-outlined">
+                        search
+                        </span></button>
+                </span>
+            </div>
+            <div class="toolbarItem">
+                <span class="material-symbols-outlined">
+                    calendar_month
+                    </span>
+                    상영시간표
+            </div>
+            <div class=toolbarItem>
+                <span class="material-symbols-outlined">
+                    theaters
+                </span>
+                    박스오피스
+            </div>
+            <div class=toolbarItem>
+                <span class="material-symbols-outlined">
+                    receipt_long
+                    </span>
+                    빠른예매
+            </div>
+        </div>
+        <div class="scroll_animation">
+            <span class="material-symbols-outlined">
+                expand_more
+            </span>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_menu">
+            <div class="footer_menu_container">
+                <div class="footer_menu_item">회사소개</div>
+                <div class="footer_menu_item">인재채용</div>
+                <div class="footer_menu_item">사회공언</div>
+            </div>
+            <div class="footer_menu_button">극장찾기</div>
+        </div>
+        <div class="footer_info">
+            <div class="footer_logo">
+                <img src="강아지.jpg" alt="">
+            </div>
+            <div class="footer_menu_button"></div>
+            <div class="company_info">
+                <div>회사이름</div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="share_icon">
+                <span class="material-symbols-outlined">
+                    grade
+                </span><span class="material-symbols-outlined">
+                    grade
+                    </span><span class="material-symbols-outlined">
+                        grade
+                        </span>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
